@@ -1,6 +1,22 @@
-```py
-names = ['Anna', 'Oskars', 'Dzenifere']
-ages = [16, 14, 17]
-for i in range(3):
-    print(f"Čau mani sauc {names[i]} un man ir {ages[i]} gadi")
-```
+shopping_list = ['milk', 'avokado', 'bananas', 'choclate', 'nuts']
+new_item = input("Ievadi jaunu elementu: ")
+shopping_list.append(new_item)
+
+
+print("Risināsim ar for in")
+i = 1
+for item in shopping_list:
+    print(f"{i}. {item}")
+    i += 1
+
+print("Risināsim ar for")
+for i in range(len(shopping_list)):
+    print(f"{i+1}. {shopping_list[i]}")
+
+
+
+
+
+
+
+
