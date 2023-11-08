@@ -1,22 +1,13 @@
-shopping_list = ['milk', 'avokado', 'bananas', 'choclate', 'nuts']
-new_item = input("Ievadi jaunu elementu: ")
-shopping_list.append(new_item)
+for i in range(0, 10):
+    print(i * 10)
 
+names = ["Anna", "Oskars", "Beta", "Richard"]
+for name in names:
+    print(f"Labrīt, {name}!")
 
-print("Risināsim ar for in")
-i = 1
-for item in shopping_list:
-    print(f"{i}. {item}")
-    i += 1
-
-print("Risināsim ar for")
-for i in range(len(shopping_list)):
-    print(f"{i+1}. {shopping_list[i]}")
-
-
-
-
-
-
-
-
+ages = [15, 17, 18, 20, 34, 21]
+for age in ages:
+    if age >= 18:
+        print(f"{age} enough")
+    else:
+        print(f"{age} not enough")
